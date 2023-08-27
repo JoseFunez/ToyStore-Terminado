@@ -1,0 +1,209 @@
+[{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897c6"
+  },
+  "idProduct": 1,
+  "name": "Optimus Prime",
+  "brand": "hasbro",
+  "img": "https://hasbropulse.com/cdn/shop/files/F71215L00_combo_23_2000px_300DPI_2000x.jpg?v=1684848677",
+  "price": "34.99$",
+  "type": "action figures",
+  "age": "11+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897c7"
+  },
+  "idProduct": 2,
+  "name": "Monopoly Junior: Super Mario",
+  "brand": "hasbro",
+  "img": "https://shop.hasbro.com/_next/image?url=https%3A%2F%2Fwww.hasbro.com%2Fcommon%2Fproductimages%2Fes_LAM%2F7BCBAB85F25643D097C6A4C542631CA5%2Fb6e3acfbc1f96da28c0887a0ea6051605fc3d8f2.jpg&w=1920&q=75",
+  "price": "19.99$",
+  "type": "table games",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897c8"
+  },
+  "idProduct": 3,
+  "name": "My Little Pony - Cutie Mark Magic - Izzy Moonbow",
+  "brand": "hasbro",
+  "img": "https://shop.hasbro.com/_next/image?url=https%3A%2F%2Fwww.hasbro.com%2Fcommon%2Fproductimages%2Fes_LAM%2FA89BBCBDA96149AF948A08D557E9211A%2Fc0538fdb7788b481092fb3b865aa32ed785420c8.jpg&w=1920&q=75",
+  "price": "9.99$",
+  "type": "dolls",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897c9"
+  },
+  "idProduct": 4,
+  "name": "Arctic Explorer Truck and Mobile Lab",
+  "brand": "lego",
+  "img": "https://www.lego.com/cdn/cs/set/assets/blt2594ae16385f121a/60378_alt1.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+  "price": "74.99$",
+  "type": "construction",
+  "age": "6+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897ca"
+  },
+  "idProduct": 5,
+  "name": "NASA Mars Rover Perseverance",
+  "brand": "lego",
+  "img": "https://www.lego.com/cdn/cs/set/assets/bltf59922ec93c133f8/42158_alt1.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+  "price": "99.99$",
+  "type": "construction",
+  "age": "10+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897cb"
+  },
+  "idProduct": 6,
+  "name": "Jay’s Titan Mech",
+  "brand": "lego",
+  "img": "https://www.lego.com/cdn/cs/set/assets/blt6bccd2fbfe157230/71785_alt1.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1",
+  "price": "79.99$",
+  "type": "construction",
+  "age": "9+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897cc"
+  },
+  "idProduct": 7,
+  "name": "cualquier cosa",
+  "brand": "mattel",
+  "img": "https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,q_60,c_pad/shop-emea-prod/products/jobb1sqscrhamzyrsydv_9e246d8e-1503-43de-b81d-70f7cc5a92ae.jpg?v=1687450951",
+  "price": "49.99$",
+  "type": "dolls",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897cd"
+  },
+  "idProduct": 8,
+  "name": "DComics",
+  "brand": "mattel",
+  "img": "https://res.cloudinary.com/mattel-dtc-cloud/image/upload/w_720,h_720,q_60,c_pad/shop-emea-prod/products/twxdqskd9tm2a93pgyik_e91a71e5-1b6a-4356-8a60-9dc596157166.jpg?v=1680280580",
+  "price": "24.99$",
+  "type": "vehicles",
+  "age": "3+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897ce"
+  },
+  "idProduct": 9,
+  "name": "Ichiraku Ramen Shop",
+  "brand": "playmobil",
+  "img": "https://media.playmobil.com/i/playmobil/70668_product_detail/Ichiraku%20Ramen%20Shop?locale=es-ES,es,*&$pdp_product_main_xl$&fmt=auto&strip=true&qlt=80&fmt.jpeg.chroma=1,1,1&unsharp=0,1,1,7&fmt.jpeg.interlaced=true",
+  "price": "69.99$",
+  "type": "construction",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897cf"
+  },
+  "idProduct": 10,
+  "name": "Sasuke vs. Itachi",
+  "brand": "playmobil",
+  "img": "https://media.playmobil.com/i/playmobil/70666_product_box_front/Sasuke%20vs.%20Itachi?locale=es-ES,es,*&$pdp_product_main_xl$&fmt=auto&strip=true&qlt=80&fmt.jpeg.chroma=1,1,1&unsharp=0,1,1,7&fmt.jpeg.interlaced=true",
+  "price": "24.99$",
+  "type": "construction",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897d0"
+  },
+  "idProduct": 11,
+  "name": "Fisher-Price 2-In-1 Sweet Ride Jumperoo Baby Activity Center For Infants And Toddlers",
+  "brand": "fisherprice",
+  "img": "https://shop.mattel.com/cdn/shop/products/brmobp53xfm860m5zklo.jpg?v=1686930083",
+  "price": "39.99$",
+  "type": "baby",
+  "age": "0-3"
+},
+{
+  "_id": {
+    "$oid": "64e5236bde54bc97c4b897d1"
+  },
+  "idProduct": 12,
+  "name": "Power Wheels Ford F150 Raptor Extreme 12V Ride On Truck",
+  "brand": "fisherprice",
+  "img": "https://shop.mattel.com/cdn/shop/products/yr3ctmiryclj4xpgesjx_040e74e5-acb0-4683-bdc4-eb202323a5bc.jpg?v=1683581894",
+  "price": "79.99$",
+  "type": "vehicle",
+  "age": "5+"
+},
+{
+  "_id": {
+    "$oid": "64e6b17f0df5a999e566a5f9"
+  },
+  "idProduct": 13,
+  "name": "Cyborg Spider-Woman Deluxe Action Figure by Hasbro – Spider-Man: Across the Spider-Verse – Marvel Legends",
+  "brand": "Marvel",
+  "img": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680",
+  "price": "58.99$",
+  "type": "action figures",
+  "age": "4+",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e938de5bb24e2fe3e06104"
+  },
+  "idProduct": 14,
+  "name": "Cyborg Spider-Woman Deluxe Action Figure by Hasbro – Spider-Man: Across the Spider-Verse – Marvel Legends",
+  "brand": "Marvel",
+  "img": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680",
+  "price": "90.99$",
+  "type": "action figures",
+  "age": "5+",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e93a335bb24e2fe3e0610d"
+  },
+  "idProduct": 16,
+  "name": "cualquiercosa",
+  "brand": "hahahaintreprice",
+  "img": "latuya.com",
+  "price": "12$",
+  "type": "action",
+  "age": "21+",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e93c605bb24e2fe3e06113"
+  },
+  "idProduct": 22,
+  "name": "Cyborg Spider Deluxes",
+  "brand": "Marvel",
+  "img": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680",
+  "price": "55.99$",
+  "type": "action figures",
+  "age": "3+",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ea79c76231bf9689e106c2"
+  },
+  "idProduct": 18,
+  "name": "que hace",
+  "brand": "y si no quiero?",
+  "img": "busca que hacer",
+  "price": "nada y vos?",
+  "type": "pues nada jajaja",
+  "age": "11+",
+  "__v": 0
+}]

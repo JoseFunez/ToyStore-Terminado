@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'Nunito-ExtraBlod';
+    src: url('../fonts/Nunito-ExtraBold.ttf');  
+}
+
+#content{
+	position: relative;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#content h1{
+    width: 98px;
+    height: 33px;
+    font-size: 24px;
+
+    font-family: 'Nunito-ExtraBlod';
+    margin-top: 0%;
+}
+
+#logo{
+    width: 243px;
+    height: 66px;
+}
+
+#logoI{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#LogoI{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#LogoI h1{
+    width: 98px;
+    height: 33px;
+    font-size: 24px;
+
+    font-family: 'Nunito-ExtraBlod';
+    margin-top: 0%;
+}
+
+#LogoI img{
+    width: 243px;
+    height: 66px;
+}
+
+#contentform h1{
+    width: 198px; 
+    height: 37px; 
+    color: black; 
+    font-size: 24px; 
+    font-family: 'Nunito-ExtraBlod'; 
+}
+
+.form{
+    width: 280px; 
+    height: 38px; 
+    background: #FEFEFE; 
+    border:#B4AAAA solid;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Nunito-ExtraBlod';
+}
+
+.form::placeholder{
+    color: #B4AAAA;
+}
+
+a{
+    width: 198px; 
+    height: 37px; 
+    font-size: 15px; 
+    font-family: 'Nunito-ExtraBlod';
+    text-decoration: none;
+}
+
+.button{
+    width: 302px;
+    height: 47px; 
+    border-radius: 40px;
+    font-size: 15px; 
+    font-family: 'Nunito-ExtraBlod';
+
+    border: none;
+    color: #FEFEFE;
+}
+
+#contentext{
+    bottom: 15px;
+    position: absolute;
+}
+
+
+#Arrow{
+    width: 57px; 
+    height: 33px;
+}
+
+.h2{
+    width: 304px; 
+    font-size: 16px; 
+    font-family: 'Nunito-ExtraBlod'; 
+}
+
+.p{
+    width: 313px; 
+    font-size: 15px; 
+    font-family: 'Nunito'; 
+    
+}
+
+#Img_Up{
+    width: 96px; 
+    height: 88px;
+}
+
+.UPL{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.radio{ 
+    color: #0087C7; 
+    font-size: 18px; 
+    font-family: 'Nunito-ExtraBlod';
+}
+
+#Photo{
+    font-family: 'Nunito-ExtraBlod';
+}
+
+#content_user{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
+}
+
+.parent {
+    background: #fff;
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: fixed;
+    bottom: 0px;
+    }
+    
+    .div1 { grid-area: 4 / 2 / 5 / 3; padding: 0px 30px;}
+    .div2 { grid-area: 4 / 3 / 5 / 4; padding: 0px 30px;}
+    .div3 { grid-area: 4 / 4 / 5 / 5; padding: 0px 30px;}
+    .div4 { grid-area: 5 / 2 / 6 / 3; padding: 0px 30px;}
+    .div5 { grid-area: 5 / 3 / 6 / 4; padding: 0px 30px;}
+    .div6 { grid-area: 5 / 4 / 6 / 5; padding: 0px 30px;}
+
+.parent img{
+    width: 45px;
+    height: 45px;
+}
+
+.parent h2{    
+    font-size: 16px; 
+    font-family: 'Nunito-ExtraBlod'; 
+    color: black;
+}
+
+.div2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.div2 ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.div2 ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nunito-ExtraBlod';
+    font-size: 18px;
+}
+
+.div2 ul li ul.dropdown li{
+    display: block;
+}
+
+.div2 ul li ul.dropdown {
+    background: #0087C7;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-align: center;
+}
+
+.div2 ul li a:hover {
+    background: #9ac0d284;
+}
+
+.div2 ul li:hover ul.dropdown {
+    display: block;
+}
+
+.parent2 {
+    height: 132px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div7 { grid-area: 1 / 1 / 2 / 6; }
+    .div8 { grid-area: 2 / 1 / 4 / 4;     
+        border-style: hidden hidden solid hidden;
+        border-color: #fff;
+        height: 8.5vh;
+    }
+    .div9 { grid-area: 2 / 4 / 4 / 6; }
+    .div10 { grid-area: 3 / 1 / 4 /3; }
+
+.div7 p{
+    padding: 0px 10px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    margin: unset;
+    font-size:  24px;
+    font-family: 'Nunito-ExtraBlod';
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.div8 h2{
+    padding: 0px 10px;
+    color: #fff;
+    font-size:  18px;
+    font-family: 'Nunito';
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+    
+}
+
+.div10 a{
+    padding: 10px;
+    background: #fff;
+    color: #E21919;
+    font-size:  18px;
+    font-family: 'Nunito-ExtraBlod';
+    display: flex;
+    width: 110px;
+    height: 15px;
+}
+
+.div9 input{
+    width: 100%;
+    height: 8.7vh;
+    color: #fff;
+    background: #E21919;
+    border: none;
+    font-size:  18px;
+    font-family: 'Nunito-ExtraBlod';
+}
+
+
+#content_DO table th td{
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+    font-size:  18px;
+    font-family: 'Nunito-ExtraBlod';
+    text-align: left;
+    padding-left: 10px;
+}
+
+#content_DO table{
+    width: 100%;
+    height: 78.3vh;
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+    font-size:  18px;
+    font-family: 'Nunito-ExtraBlod';
+    text-align: left;
+    padding-left: 10px;
+}
+
+#content_DO th{
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+    font-size:  18px;
+    font-family: 'Nunito-ExtraBlod';
+    text-align: left;
+    padding-left: 10px;
+}
+
+#TB_Fac th{
+    padding: 3px;
+    border: 2px #000 solid;
+    text-align: left;
+    font-size:  12px;
+    font-family: 'Nunito-ExtraBlod';
+
+}
+
+#TB_Fac{
+    border-collapse: collapse;
+    width: 100%;
+}

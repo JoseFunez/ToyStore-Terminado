@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>administrador</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <div class="logo1">
+      <img src="./img/logo.png" alt="logo" />
+    </div>
+    <h4>Administracion</h4>
+    <div class="logo2">
+      <img src="./img/pngwing 2.png" alt="usuario" />
+    </div>
+    <section id="formulario" class="login-container">
+      <input
+        class="control caja-texto"
+        type="text"
+        id="username"
+        placeholder="user"
+        required
+      />
+      <input
+        class="control caja-texto"
+        type="password"
+        id="password"
+        placeholder="password"
+        required
+      />
+      <button class="control boton" id="signButton" onclick="login()">
+        Log In
+      </button>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/administradores.controlador.js"></script>
+  </body>
+</html>

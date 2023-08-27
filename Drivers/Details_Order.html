@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Order</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <style>
+        body{
+            margin: unset;
+            height:  90vh;
+            background:#0087C7 ;
+        }
+    </style>
+</head>
+<body>
+    <div style="background: #fff;display: flex; justify-content: space-between; align-items: baseline;padding: 10px;">
+        <a href="/Available_orders.html">
+            <img style="width: 45px; height: 25px;margin-top: 5px;" id="Arrow" 
+                src="img/Arrow - copia.png" 
+                alt="Imagen no encontrada"></a>
+        <h2 style="font-size: 20px; font-family: Nunito-ExtraBlod; margin: unset;">Details Order N° 0</h2>
+    </div>
+
+    <div id="content_DO">
+        <table>
+            <tr>
+                <th>Order N°</th>
+                <th>0</th>
+            </tr>
+            <tr>
+                <th>Product name</th>
+                <th>xxxxxx</th>
+            </tr>
+            <tr>
+                <th>Product Quantity</th>
+                <th>x</th>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <th>Distance in km</th>
+                <th>xxxkm</th>
+            </tr>
+            <tr>
+                <th>Estimared time</th>
+                <th>xx:xx</th>
+            </tr>
+            <tr>
+                <th>Subtotal</th>
+                <th>Lps.xxx</th>
+            </tr>
+            <tr>
+                <th>IVS</th>
+                <th>Lps.xxx</th>
+            </tr>
+            <tr>
+                <th style="border: solid;">Shipping cost</th>
+                <th style="border: solid;">Lps.xxxxx</th>
+            </tr>
+            <tr>
+                <th style="color: #000; border: 5px black solid;">Total</th>
+                <th style="color: #000; border: 5px black solid;">Lps.xxxx</th>
+            </tr>
+            <tr>
+                <th style="width:50%; height: 120px;"><input style="background: #0057A8;color: #fff;border: none;width: 120px; height: 50px; font-size:  18px;
+                    font-family: 'Nunito-ExtraBlod';border-radius: 10px; " type="button" value="Bill" onclick="OI()"></th>
+                <th><input style="background: #E21919;color: #fff;border: none;width: 120px; height: 50px; font-size:  18px;
+                    font-family: 'Nunito-ExtraBlod';border-radius: 10px;" type="button" value="Take Order" onclick="TO()"></th>
+            </tr>
+        </table>
+    </div>
+    <div class="parent">
+        <div class="div1"> <a href="Orders_Record.html"><img src="/img/icone_R.png" alt="Imagen no encontrada"></a></div>
+        <div class="div2"> 
+            <ul>
+                <li>
+                    <img src="/img/Ordenes.png" alt="Imagen no encontrada">
+                <ul class="dropdown">
+                    <li><a style="height: unset;" href="/Available_orders.html">Available Orders</a></li>
+                    <li><a href="Orders_taken.html">Orders Takens</a></li>
+                </ul>
+                </li> 
+            </ul>
+        </div>
+        <div class="div3"> <a href="User.html"><img src="/img/User2.png" alt="Imagen no encontrada"></a></div>
+        <div class="div4"> <a href="Orders_Record.html"><h2>Record</h2></a></div>
+        <div class="div5"><h2>Orders</h2></div>
+        <div class="div6"> <a href="User.html"><h2>User</h2></a></div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

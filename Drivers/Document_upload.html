@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Upload</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <style>
+        body{
+            margin: 30px;
+            height:  90vh;
+        }
+    </style>
+</head>
+<body>
+    <a href="/Registration_drivers.html">
+        <img id="Arrow" 
+            src="img/Arrow - copia.png" 
+            alt="Imagen no encontrada"></a>
+        <h1 style="width: 313px; height: 41px; font-size: 24px; font-family: Nunito-ExtraBlod;"> Document Upload</h1>
+        <h1 style="width: 304px; height: 28px; font-size: 20px; font-family: Nunito-ExtraBlod;">Personal information</h1>
+        <p class="p">If you are Honduran: Photo of your national identity document.</p>
+        <h2 class="h2">Date of birth</h2>
+        <input style="margin: 0;" class="form" type="date" placeholder="Date">
+        <h2 class="h2">Nacionatity</h2>
+        <select style="margin: 0;" class=form name="Nacionatity" id="Nacionatity">
+            <option value="1">Honduran</option>
+            <option value="2">Salvadoran</option>
+            <option value="3">Guatemalan</option>
+            <option value="4">Nicaraguan</option>
+            <option value="5">Other</option>
+        </select><br>
+        <h2 class="h2">Selfie photography</h2>
+        <p class="p">Stay in the center and look at the camera. The face must be uncovered, without glasses, caps or mask</p>
+        <Div class="UPL">
+            <img id="Img_Up" src="/img/Upload.png" alt="Imagen no encontrada">
+            <input type="file" name="Photo" id="Photo">
+        </Div>
+        <p class="p">.pdf .png or jpg max 8MB</p>
+        <h2 class="h2">Document type</h2>
+        <label class="radio"><input class=radio name="option" type="radio" value="1">Identificacion document</label><br>
+        <label class="radio"><input class=radio name="option" type="radio" value="2">Passport</label><br>
+        <h2 class="h2">Back and front photo of the identity document</h2>
+        <Div class="UPL">
+            <img id="Img_Up" src="/img/Upload.png" alt="Imagen no encontrada">
+            <input type="file" name="Photo" id="Photo">
+        </Div>
+        <p class="p">.pdf .png or jpg max 8MB</p>
+        <h2 class="h2">Identity document number</h2>
+        <input style="margin: 0;" class="form" type="number" placeholder="Identity">
+        <h1 style="width: 304px; height: 28px; font-size: 20px; font-family: Nunito-ExtraBlod;">Bank data</h1>
+        <h2 class="h2">Bank account number</h2>
+        <input style="margin: 0;" class="form" type="number">
+        <h2 class="h2">Which bank does the account belong to?</h2>
+        <select style="margin: 0;" class=form name="Type_Bank" id="Type_Bank">
+            <option value="1">Banco Atlántida S.A.</option>
+            <option value="2">Banco de Occidente S.A.</option>
+            <option value="3">BAC Credomatic</option>
+            <option value="4">Ficohsa</option>
+            <option value="5">Other</option>
+        </select>
+        <h2 class="h2">Document type</h2>
+        <label class="radio"><input class=radio name="option" type="radio" value="1">Saving</label><br>
+        <label class="radio"><input class=radio name="option" type="radio" value="2">Stream or template</label><br>
+        <h2 class="h2">Full name of the bank account holder</h2>
+        <input class=form type="text" placeholder="name">
+        <h2 class="h2">Bank account verification photo</h2>
+        <p class="p">You must be able to see the account number and the name of the holder</p>
+        <Div class="UPL">
+            <img id="Img_Up" src="/img/Upload.png" alt="Imagen no encontrada">
+            <input type="file" name="Photo" id="Photo">
+        </Div>
+        <p class="p">.pdf .png or jpg max 8MB</p>
+        <h2 class="h2">Front and back photo of driver's license</h2>
+        <Div class="UPL">
+            <img id="Img_Up" src="/img/Upload.png" alt="Imagen no encontrada">
+            <input type="file" name="Photo" id="Photo">
+        </Div>
+        <p class="p">.pdf .png or jpg max 8MB</p>
+        <input style="background: #E21919;margin: 15px 0px 15px 0px;" class="button" type="button" value="Send" onclick="RFD()">
+        <script src="/js/main.js"></script>
+</body>
+</html>

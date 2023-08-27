@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <link rel="stylesheet" href="css/Estilos.css" />
+    <style>
+      body {
+        margin: 30px;
+        height: 90vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        width: 198px;
+        height: 37px;
+        font-size: 24px;
+        font-family: Nunito-ExtraBlod;
+      "
+    >
+      User
+    </h1>
+    <div id="content_user">
+      <div
+        style="
+          width: 190px;
+          height: 226px;
+          background-color: #0087c7;
+          border-radius: 20px;
+          padding: 10px;
+        "
+      >
+        <h1
+          style="
+            width: 197px;
+            height: 35px;
+            color: white;
+            font-size: 18px;
+            margin: 3px;
+            font-family: Nunito-ExtraBlod;
+          "
+        >
+          Personal information
+        </h1>
+        <h2 style="margin: 2px; color: white" class="h2">Name</h2>
+        <p style="margin: 2px; color: white" class="p">xxxxx</p>
+        <h2 style="margin: 2px; color: white" class="h2">Phone</h2>
+        <p style="margin: 2px; color: white" class="p">xxxx-xxxx</p>
+        <h2 style="margin: 2px; color: white" class="h2">Email</h2>
+        <p style="margin: 2px; color: white" class="p">xxxx@xxxx.com</p>
+        <h2 style="margin: 2px; color: white" class="h2">City</h2>
+        <p style="margin: 2px; color: white" class="p">xxxxxxxxx</p>
+      </div>
+      <div>
+        <img
+          style="width: 108px; padding: 10px"
+          src="/img/User.png"
+          alt="Imagen no encontrada"
+        /><br />
+        <input
+          style="
+            width: 109px;
+            height: 40px;
+            margin-left: 14px;
+            padding: 10px;
+            color: #fff;
+            background: #e21919;
+            border-radius: 40px;
+            border: none;
+          "
+          type="button"
+          value="Log Out"
+          onclick="Log()"
+        />
+      </div>
+    </div>
+    <div
+      style="
+        width: 329px;
+        height: 216px;
+        background: #0087c7;
+        border-radius: 20px;
+      "
+    >
+      <h1
+        style="
+          width: 100%;
+          height: 35px;
+          color: #fff;
+          font-size: 20px;
+          font-family: Nunito-ExtraBlod;
+          display: flex;
+          justify-content: center;
+        "
+      >
+        State
+      </h1>
+      <label
+        style="
+          color: #fff;
+          font-size: 15px;
+          font-family: Nunito-ExtraBlod;
+          padding-top: 15px;
+          display: flex;
+        "
+        ><input
+          class="radio"
+          name="option"
+          type="radio"
+          value="1"
+        />Available</label
+      ><br />
+      <label
+        style="
+          color: #fff;
+          font-size: 15px;
+          font-family: Nunito-ExtraBlod;
+          padding-top: 15px;
+          display: flex;
+        "
+        ><input class="radio" name="option" type="radio" value="2" />In
+        transport</label
+      ><br />
+      <label
+        style="
+          color: #fff;
+          font-size: 15px;
+          font-family: Nunito-ExtraBlod;
+          padding-top: 15px;
+          display: flex;
+        "
+        ><input class="radio" name="option" type="radio" value="2" />Not
+        available</label
+      ><br />
+    </div>
+    <div class="parent">
+      <div class="div1">
+        <a href="Orders_Record.html"
+          ><img src="/img/icone_R.png" alt="Imagen no encontrada"
+        /></a>
+      </div>
+      <div class="div2">
+        <ul>
+          <li>
+            <img src="/img/Ordenes.png" alt="Imagen no encontrada" />
+            <ul class="dropdown">
+              <li>
+                <a style="height: unset" href="/Available_orders.html"
+                  >Available Orders</a
+                >
+              </li>
+              <li><a href="Orders_taken.html">Orders Takens</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="div3">
+        <a href="User.html"
+          ><img src="/img/User2.png" alt="Imagen no encontrada"
+        /></a>
+      </div>
+      <div class="div4">
+        <a href="Orders_Record.html"><h2>Record</h2></a>
+      </div>
+      <div class="div5"><h2>Orders</h2></div>
+      <div class="div6">
+        <a href="User.html"><h2>User</h2></a>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

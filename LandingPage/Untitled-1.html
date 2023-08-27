@@ -1,0 +1,7 @@
+for (let i = 1; i <= 5; i++) { const conversation =
+document.createElement("div"); conversation.classList.add("conversation");
+conversation.textContent = `Conversación ${i}`; const messages =
+document.createElement("div"); messages.classList.add("messages");
+messages.innerHTML = `
+<p>${loremIpsum}</p>
+`; conversation.appendChild(messages); chatList.appendChild(conversation); }

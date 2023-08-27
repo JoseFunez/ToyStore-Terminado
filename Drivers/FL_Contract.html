@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Login Contract</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <style>
+        body{
+            margin: 30px;
+            height:  90vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="LogoI">
+        <img id="Logo" src="img/Logo.png" alt="Imagen no encontrada">
+        <h1>Driver</h1>        
+    </div>
+    <h1 style="font-size: 24px;font-family: Nunito-ExtraBlod;">Contract</h1>   
+    <h2 class="h2"> Download the PDF file containing the contract, print it, then sign it, scan the signed contract and upload the file with your signed contract.</h2>
+    <h1 style="font-size: 24px;font-family: Nunito-ExtraBlod; padding-top: 20px;">Download Contract</h1>
+    <Div>
+        <a style="background: #0087C7; color: #fff;padding: 10px;border-radius: 6px;font-size: 20px;" href="/img/Logo.png" download="Contract.pdf">Download Contract</a>
+    </Div>
+    <h1 style="font-size: 24px;font-family: Nunito-ExtraBlod; padding-top: 20px;">Upload Contract</h1>
+    <Div class="UPL">
+        <img id="Img_Up" src="/img/Upload.png" alt="Imagen no encontrada">
+        <input type="file" name="Photo" id="Photo">
+    </Div>
+    <p class="p">.pdf max 10MB</p>
+    <input style="background: #0087C7; bottom: 15px; position: absolute;" class="button" type="button" value="Send" onclick="User()"><br><br>
+    <script src="/js/main.js"></script>
+</body>
+</html>

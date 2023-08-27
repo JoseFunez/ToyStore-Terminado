@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders taken</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <style>
+        body{
+            margin: unset;
+            height:  90vh;
+            background:#0087C7 ;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="width: 100%; height: 57px; margin: unset; background: #fff; text-align: center;
+    display: flex; justify-content: center; flex-direction: column; font-size: 20px;    font-family: 'Nunito-ExtraBlod';">Orders Takens</h2>
+    <div style="height: 72px;" class="parent2">
+        <div class="div8"><h2> Order N°:0</h2></div>
+        <div class="div9"><input style="font-size: 14px;" type="button" value="Cancel Order Taken"></div>
+        <div class="div10"><a href="Details_Order.html">Details</a></div>
+    </div>
+    <div style="border: 3px #fff solid">
+    <h2 style="color: #fff;display: flex; justify-content: center; width: 100%;font-size: 20px;font-family: 'Nunito-ExtraBlod';">Order Status</h2>
+    <label style="color: #fff;display: flex; width: 150px;" class="radio"><input class=radio name="option" type="radio" value="1">Taken</label><br>
+    <label style="color: #fff;display: flex; width: 150px;" class="radio"><input class=radio name="option" type="radio" value="2">At the origin</label><br>
+    <label style="color: #fff;display: flex; width: 150px;" class="radio"><input class=radio name="option" type="radio" value="3">On the way</label><br>
+    <label style="color: #fff;display: flex; width: 150px;" class="radio"><input class=radio name="option" type="radio" value="4">In the destiny</label><br>
+    </div>
+
+    <div class="parent">
+        <div class="div1"> <a href="Orders_Record.html"><img src="/img/icone_R.png" alt="Imagen no encontrada"></a></div>
+        <div class="div2"> 
+            <ul>
+                <li>
+                    <img src="/img/Ordenes.png" alt="Imagen no encontrada">
+                <ul class="dropdown">
+                    <li><a style="height: unset;" href="/Available_orders.html">Available Orders</a></li>
+                    <li><a href="Orders_taken.html">Orders Takens</a></li>
+                </ul>
+                </li> 
+            </ul>
+        </div>
+        <div class="div3"> <a href="User.html"><img src="/img/User2.png" alt="Imagen no encontrada"></a></div>
+        <div class="div4"> <a href="Orders_Record.html"><h2>Record</h2></a></div>
+        <div class="div5"><h2>Orders</h2></div>
+        <div class="div6"> <a href="User.html"><h2>User</h2></a></div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

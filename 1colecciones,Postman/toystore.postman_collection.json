@@ -1,0 +1,503 @@
+{
+	"info": {
+		"_postman_id": "9101aeed-8404-4596-b230-d32fe2f7c08f",
+		"name": "toystore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28497918"
+	},
+	"item": [
+		{
+			"name": "administradores-login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Admin1\",\r\n    \"password\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/administradores/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"administradores",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companies-obtener compañias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/companies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companies-obtener una compañia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/companies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"companies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companies-agregar una compañia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 6,\r\n  \"name\": \"Marvel\",\r\n  \"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png\",\r\n  \"products_in_stock\": [\r\n    {\r\n      \"idProduct\": 13,\r\n      \"name\": \"Cyborg Spider-Woman Deluxe Action Figure by Hasbro – Spider-Man: Across the Spider-Verse – Marvel Legends\",\r\n      \"img\": \"https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680\",\r\n      \"price\": \"58.99$\",\r\n      \"type\": \"action figures\",\r\n      \"age\": \"4+\"\r\n    }\r\n  ],\r\n  \"corporate_number\": \"2223-4460\",\r\n  \"corporate_email\": \"marvel@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/companies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companies-actualizar una compañia",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 8,\r\n  \"name\": \"DC\",\r\n  \"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png\",\r\n  \"corporate_number\": \"2223-4460\",\r\n  \"corporate_email\": \"DC@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/companies/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"companies",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companies-eliminar una compañia",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/companies/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"companies",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products-obtener productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products-obtener un producto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products-agregar un producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"idProduct\": 14,\r\n      \"name\": \"Cyborg Spider-Woman Deluxe Action Figure by Hasbro – Spider-Man: Across the Spider-Verse – Marvel Legends\",\r\n      \"brand\": \"Marvel\",\r\n      \"img\": \"https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680\",\r\n      \"price\": \"90.99$\",\r\n      \"type\": \"action figures\",\r\n      \"age\": \"5+\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products-actualizar un producto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"idProduct\": 22,\r\n      \"name\": \"Cyborg Spider-Woman Deluxes\",\r\n      \"img\": \"https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1713048384712-1?fmt=webp&qlt=70&wid=1680&hei=1680\",\r\n      \"price\": \"50.99$\",\r\n      \"type\": \"action figures\",\r\n      \"age\": \"4+\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/products/22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products-eliminar un producto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "drivers-obtener motoristas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/drivers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"drivers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "drivers-obtener un motorista",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/drivers/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"drivers",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "drivers-agregar un motorista",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 12,\r\n  \"nombre\": \"Steven Columna\",\r\n  \"phone\": \"122-654-8888\",\r\n  \"email\": \"stvc@example.com\",\r\n  \"status\": \"Activo\",\r\n  \"city\": \"Ciudad B\",\r\n  \"assing-orders\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/drivers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"drivers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "drivers-actualizar un motorista",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 11,\r\n  \"nombre\": \"Marcia Funez\",\r\n  \"phone\": \"122-654-8888\",\r\n  \"email\": \"marci@example.com\",\r\n  \"status\": \"Inactivo\",\r\n  \"city\": \"Ciudad C\",\r\n  \"assing-orders\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/drivers/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"drivers",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "drivers-eliminar un motorista",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/drivers/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"drivers",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders-obtener ordenes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders-obtener una orden",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders-agregar una orden",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_order\": 17,\r\n  \"location\": \"Dirección 1213\",\r\n  \"distance_in_km\": 8,\r\n  \"estimated_time\": \"48 minutos\",\r\n  \"total\": \"45.75$\",\r\n  \"city\": \"Ciudad C\",\r\n  \"driver\": \"3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders-actualizar una orden",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_order\": 17,\r\n  \"location\": \"Dirección 1213\",\r\n  \"distance_in_km\": 8,\r\n  \"estimated_time\": \"55 minutos\",\r\n  \"total\": \"50.75$\",\r\n  \"city\": \"Ciudad C\",\r\n  \"driver\": \"3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/orders/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders-eliminar una orden",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"17"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

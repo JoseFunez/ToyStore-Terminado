@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order invoice</title>
+    <link rel="stylesheet" href="css/Estilos.css">
+    <style>
+        body{
+            margin: unset;
+            height:  90vh;
+            background:#0087C7 ;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="width: 100%; height: 57px; margin: unset; background: #fff; text-align: center;
+    display: flex; justify-content: center; flex-direction: column; font-size: 20px;  font-family: 'Nunito-ExtraBlod';">Orders Invoice</h2>
+
+    <div style="background: #fff; margin: 10px; height: 76vh; " >
+        <img style="margin: 0px 78px;" src="img/Logo.png" alt="Imagen no encontrada">
+        <h2 style="padding: 10px;font-size: 18px; font-family: 'Nunito-ExtraBlod'; margin: unset; ">Order N°:0</h2>
+        <table style="font-size: 12px; padding: 0px 0px 30px 10px; color:#000;font-family: Nunito; width: 80%; ">
+            <tr>
+                <td>Customer name:</td>
+                <td>XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>XX@XXXX.com</td>
+            </tr>
+            <tr>
+                <td>Date of issue:</td>
+                <td>XXXXXXXXX</td>
+            </tr>
+        </table>
+        <table id="TB_Fac">
+            <tr>
+                <th>Cant.</th>
+                <th>Description</th>
+                <th>Unit prace</th>
+                <th>Sale value</th>
+            </tr>
+            <tr>
+                <th style="height: 17vh;" ></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th colspan="3">Subtotal</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th colspan="3">IVS</th>
+                <th></th>
+            </tr>   
+            <tr>
+                <th colspan="3">Shipping cost</th>
+                <th></th>
+            </tr>   
+            <tr>
+                <th colspan="3">Total</th>
+                <th></th>
+            </tr>         
+        </table>
+        <div style="display: flex; flex-wrap: wrap-reverse; justify-content: space-between;align-content: flex-start;height: 15vh;">
+        <input style="width: 150px; height: 50px;border: unset;color: #fff;background: #E21919 ;" type="button" value="Complete Order " onclick="CO()">
+        <input style="width: 150px; height: 50px;border: unset;color: #fff;background: #0087C7; " type="button" value="Print invoice">
+        </div>
+    </div>
+
+    <div class="parent">
+        <div class="div1"> <a href="Orders_Record.html"><img src="/img/icone_R.png" alt="Imagen no encontrada"></a></div>
+        <div class="div2"> 
+            <ul>
+                <li>
+                    <img src="/img/Ordenes.png" alt="Imagen no encontrada">
+                <ul class="dropdown">
+                    <li><a style="height: unset;" href="/Available_orders.html">Available Orders</a></li>
+                    <li><a href="Orders_taken.html">Orders Takens</a></li>
+                </ul>
+                </li> 
+            </ul>
+        </div>
+        <div class="div3"> <a href="User.html"><img src="/img/User2.png" alt="Imagen no encontrada"></a></div>
+        <div class="div4"> <a href="Orders_Record.html"><h2>Record</h2></a></div>
+        <div class="div5"><h2>Orders</h2></div>
+        <div class="div6"> <a href="User.html"><h2>User</h2></a></div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

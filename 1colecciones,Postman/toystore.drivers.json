@@ -1,0 +1,159 @@
+[{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93d7"
+  },
+  "id": 1,
+  "nombre": "Juan Pérez",
+  "phone": "123-456-7890",
+  "email": "juan@example.com",
+  "status": "Activo",
+  "city": "Ciudad A",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93d8"
+  },
+  "id": 2,
+  "nombre": "María Gómez",
+  "phone": "987-654-3210",
+  "email": "maria@example.com",
+  "status": "Inactivo",
+  "city": "Ciudad B",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93d9"
+  },
+  "id": 3,
+  "nombre": "Carlos Rodríguez",
+  "phone": "555-123-4567",
+  "email": "carlos@example.com",
+  "status": "Activo",
+  "city": "Ciudad C",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93da"
+  },
+  "id": 4,
+  "nombre": "Laura Martínez",
+  "phone": "777-888-9999",
+  "email": "laura@example.com",
+  "status": "Activo",
+  "city": "Ciudad A",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93db"
+  },
+  "id": 5,
+  "nombre": "Miguel Sánchez",
+  "phone": "444-555-6666",
+  "email": "miguel@example.com",
+  "status": "Inactivo",
+  "city": "Ciudad B",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93dc"
+  },
+  "id": 6,
+  "nombre": "Ana López",
+  "phone": "222-333-4444",
+  "email": "ana@example.com",
+  "status": "Activo",
+  "city": "Ciudad C",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93dd"
+  },
+  "id": 7,
+  "nombre": "Pedro Ramírez",
+  "phone": "111-222-3333",
+  "email": "pedro@example.com",
+  "status": "Inactivo",
+  "city": "Ciudad A",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93de"
+  },
+  "id": 8,
+  "nombre": "Isabel Vargas",
+  "phone": "888-999-0000",
+  "email": "isabel@example.com",
+  "status": "Activo",
+  "city": "Ciudad B",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93df"
+  },
+  "id": 9,
+  "nombre": "Javier Fernández",
+  "phone": "666-777-8888",
+  "email": "javier@example.com",
+  "status": "Inactivo",
+  "city": "Ciudad C",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e526da92ff10925aff93e0"
+  },
+  "id": 10,
+  "nombre": "Luisa Morales",
+  "phone": "333-444-5555",
+  "email": "luisa@example.com",
+  "status": "Activo",
+  "city": "Ciudad A",
+  "assing_orders": []
+},
+{
+  "_id": {
+    "$oid": "64e7926d1976d0019af5e33b"
+  },
+  "id": 11,
+  "nombre": "Marcia Funez",
+  "phone": "122-654-8888",
+  "email": "marci@example.com",
+  "status": "Activo",
+  "city": "yoro",
+  "assing_orders": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e792991976d0019af5e33d"
+  },
+  "id": 12,
+  "nombre": "Steven Columna",
+  "phone": "122-654-8888",
+  "email": "stvc@example.com",
+  "status": "Activo",
+  "city": "Ciudad B",
+  "assing_orders": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ead2436e7bb4fd671e8ac8"
+  },
+  "id": 13,
+  "nombre": "jose funez",
+  "phone": "9824-4443",
+  "email": "jose@gmail.com",
+  "status": "activo",
+  "city": "tegucigalpa",
+  "assing_orders": [],
+  "__v": 0
+}]
